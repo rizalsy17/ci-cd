@@ -97,7 +97,7 @@ describe('authSlice', () => {
 
         it('should return dataAsyncMe, loadingAsyncMe & errorAsyncMe state when given by asyncMe action', () => {
             const initialState = {};
-            const action = { type: asyncMes.fulfilled, payload: fakeUser };
+            const action = { type: asyncMesafadfasfs.fulfilled, payload: fakeUser };
 
             const nextState = authReducer(initialState, action);
 
