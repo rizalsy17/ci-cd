@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Provider store={store}>
       <PersistGate loading={<LoadingBar />} persistor={persistor}>
         <BrowserRouter>
-          <Routers />
+          {/* <Routers /> */}
         </BrowserRouter>
       </PersistGate>
     </Provider>
